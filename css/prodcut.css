@@ -1,0 +1,60 @@
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    width: 180px;
+}
+
+.header {
+    float: center;
+    margin-left: 20%;
+}
+
+.header h1 {
+    padding-top: 60px;
+    font-size: xx-large;
+}
+
+nav {
+    float: right;
+}
+
+main {
+    float: center;
+}
+
+header {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+
+.notDesc {
+    float: center;
+    margin: 20px;
+}
+
+img {
+    float: left;
+    margin: 30px;
+}
+
+.desc {
+    float: center;
+    margin-bottom: 30px;
+}
+
+#footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 30px;
+    width: 100%;
+    background: #999;
+}

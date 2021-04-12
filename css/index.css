@@ -1,0 +1,145 @@
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    width: 180px;
+}
+
+.header {
+    float: center;
+    margin-left: 20%;
+}
+
+.header h1 {
+    padding-top: 60px;
+    font-size: xx-large;
+}
+
+nav {
+    float: right;
+    position: fixed;
+    top: 30;
+    left: 90%;
+    width: 100%;
+}
+
+header {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+
+.Lists {
+    float: right;
+}
+
+.container {
+    height: 30px;
+    width: 90%;
+    margin: 30px;
+}
+
+.container img {
+    float: left;
+}
+
+.desc {
+    overflow: hidden;
+    height: 70px;
+    width: 70%;
+    float: center;
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+
+.sidebar {
+    padding: 0;
+    width: 15%;
+    background-color: #f1f1f1;
+    height: 100%;
+    overflow: auto;
+    float: left;
+}
+
+
+/* Sidebar links */
+
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+
+
+/* Active/current link */
+
+.sidebar a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+/* Links on mouse-over */
+
+.sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+
+div.content {
+    clear: right;
+    width: 80%;
+    display: inline-block;
+    margin-left: 3%;
+}
+
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .sidebar a {
+        float: left;
+    }
+    div.content {
+        margin-left: 0;
+    }
+}
+
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+
+@media screen and (max-width: 400px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+}
+
+#footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 30px;
+    width: 100%;
+    background: #999;
+}
+
+.more {
+    float: right;
+    text-align: center;
+}
